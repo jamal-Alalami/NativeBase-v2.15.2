@@ -176,6 +176,7 @@ class ToastContainer extends Component {
   }
 
   render() {
+    return null //jimy
     if (this.state.modalVisible) {
       const { x, y } = this.state.pan;
       return (
